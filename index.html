@@ -11,15 +11,15 @@
     <h1 class="logo">Gerador de Senha</h1>
 
     <main class="container-input">
-        <span>Tamamho <span id="valor"></span> caracteres</span>
+        <span>Tamanho <span id="valor"></span> caracteres</span>
         <input type="range" id="slider" class="slider" min="6" max="25" value="15">
         <button id="button" class="button-cta">Gerar Senha</button>
     </main>
 
-    <div class="container-password" class="container-password hide">
+    <div id="container-password" class="container-password hide">
         <span class="title">Sua senha gerada foi:</span>
         <span id="password" class="password">22222222222</span>
-        <span>Clique na senha para copiar 👆</span>
+        <span class="tooltip">Clique na senha para copiar 👆</span>
     </div>
 
     <script src="script.js"></script>
